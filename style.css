@@ -1,23 +1,42 @@
-/* Select the body and set its font family and background color */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
 }
 
-/* Select the h1 and set its text color and alignment */
-h1 {
-    color: #333;
-    text-align: center;
+header {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-/* Select the p and add a border and padding */
-p {
-    border: 1px solid #777;
-    padding: 10px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-/* Select the p element with the "highlight" class to give it a unique style */
-.highlight {
-    background-color: yellow;
-    font-weight: bold;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
